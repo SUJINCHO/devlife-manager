@@ -1,0 +1,49 @@
+Project DevLifeManager {
+  database_type: "PostgreSQL"
+  Note: "개발자 생활 관리 시스템 ERD"
+}
+
+Table users {
+  user_id BIGINT [pk, increment]
+  email VARCHAR(255) [not null, unique]
+  password VARCHAR(255) [not null]
+  name VARCHAR(100)
+  created_at TIMESTAMP [not null, default: `CURRENT_TIMESTAMP`]
+  updated_at TIMESTAMP [not null, default: `CURRENT_TIMESTAMP`]
+}
+
+Table tasks {
+  task_id BIGINT [pk, increment]
+  user_id BIGINT [not null]
+  title VARCHAR(255) [not null]
+  status VARCHAR(20) [not null, note: "TODO, DOING, DONE"]
+  priority VARCHAR(20) [not null, note: "LOW, MEDIUM, HIGH"]
+  due_date DATE
+  created_at TIMESTAMP [not null, default: `CURRENT_TIMESTAMP`]
+  updated_at TIMESTAMP [not null, default: `CURRENT_TIMESTAMP`]
+}
+
+Table activities {
+  activity_id BIGINT [pk, increment]
+  user_id BIGINT [not null]
+  type VARCHAR(20) [not null, note: "STUDY, CODING, ETC"]
+  duration INT [not null]
+  memo VARCHAR(500)
+  date DATE [not null]
+  created_at TIMESTAMP [not null, default: `CURRENT_TIMESTAMP`]
+}
+
+Table productivity_scores {
+  prod_id BIGINT [pk, increment]
+  user_id BIGINT [not null]
+  score INT [not null]
+  date DATE [not null]
+  created_at TIMESTAMP [not null, default: `CURRENT_TIMESTAMP`]
+}
+
+
+Ref: tasks.user_id > users.user_id
+Ref: activities.user_id > users.user_id
+Ref: productivity_scores.user_id > users.user_id
+
+
