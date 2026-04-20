@@ -1,0 +1,41 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36">
+  <diagram name="페이지-1" id="_HBFqDMgLQrvP5F-hbPX">
+    <mxGraphModel dx="975" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wXOt4AUITnwFnRxm9mN_-10" edge="1" parent="1" source="wXOt4AUITnwFnRxm9mN_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wXOt4AUITnwFnRxm9mN_-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wXOt4AUITnwFnRxm9mN_-12" connectable="0" parent="wXOt4AUITnwFnRxm9mN_-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="HTTP (REST API + JWT)" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="-1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wXOt4AUITnwFnRxm9mN_-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66B2FF;" value="&lt;div&gt;Vue.js Client&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Dashboard UI&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Task / Activity UI&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Chart.js&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="140" x="53.75" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wXOt4AUITnwFnRxm9mN_-15" edge="1" parent="1" source="wXOt4AUITnwFnRxm9mN_-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wXOt4AUITnwFnRxm9mN_-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wXOt4AUITnwFnRxm9mN_-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;" value="&lt;div&gt;PostgreSQL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;users&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;tasks&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;activities&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;productivity_scores&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="175" x="36.25" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="wXOt4AUITnwFnRxm9mN_-11" edge="1" parent="1" source="wXOt4AUITnwFnRxm9mN_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wXOt4AUITnwFnRxm9mN_-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wXOt4AUITnwFnRxm9mN_-13" connectable="0" parent="wXOt4AUITnwFnRxm9mN_-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;1343&quot; data-end=&quot;1360&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼ5 ͼj&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;div class=&quot;cm-content q9tKkq_readonly&quot;&gt;JPA / SQL&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3111" y="4" as="geometry">
+            <mxPoint x="-4" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wXOt4AUITnwFnRxm9mN_-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66FF66;" value="&lt;div&gt;Spring Boot API Server&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- REST Controller&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Service Layer&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Repository (JPA)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- JWT Authentication&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Scheduler (Batch Job)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="207.5" x="20" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="wXOt4AUITnwFnRxm9mN_-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B266FF;" value="&lt;div&gt;&amp;nbsp; Scheduler&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Daily Batch Job&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- Productivity Score Calculation&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="28.75" y="316" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
